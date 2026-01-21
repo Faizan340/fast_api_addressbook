@@ -19,8 +19,6 @@ The application does **not have a GUI**. FastAPI's built-in **Swagger UI** is us
 - **Database**
   - SQLite database for persistence
   - SQLAlchemy ORM for data access
-- **Logging**
-  - Structured logging for key operations and errors
 - **Validation**
   - Input data validated using Pydantic schemas
 - **Error Handling**
@@ -35,7 +33,6 @@ The application does **not have a GUI**. FastAPI's built-in **Swagger UI** is us
 - SQLite
 - Pydantic
 - Uvicorn
-- Logging
 
 ---
 
@@ -59,7 +56,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 ### 2. Run the application
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 
 ### 3. Access the API
 Open your browser to the interactive documentation: http://127.0.0.1:8000/docs
@@ -90,3 +87,4 @@ longitude: -122.4180
 distance_km: 5.0
 
 ----------------------
+
