@@ -40,7 +40,8 @@ The application does **not have a GUI**. FastAPI's built-in **Swagger UI** is us
 
 ### 1. Clone and setup
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/Faizan340/fast_api_addressbook.git
+
 cd fast_api_addressbook
 
 # Create Virtual Environment
@@ -87,4 +88,5 @@ longitude: -122.4180
 distance_km: 5.0
 
 ----------------------
+
 
